@@ -65,8 +65,11 @@
 // }
 
 //ejercicio 15
-let categoriaTrabajador = String["gerente", "encargado", "supervisor", "operario", "cadete"]
-let sueldoTrabajador = parseFloat[10000, 8000, 6000, 4000, 2000] 
-
+let categoria = string(prompt("ingrese categoria"))
+let sueldo = Number("ingrese sueldo")
+let categoriaTrabajador =["gerente", "encargado", "supervisor", "operario", "cadete"]
+let sueldoTrabajador = [10000, 8000, 6000, 4000, 2000] 
+if(categoria==categoriaTrabajador[0])
     alert(categoriaTrabajador)
+
     
