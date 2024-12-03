@@ -53,18 +53,20 @@
 // let pesoKilos = parseFloat(alert("Su peso en kilos es " + pesoLibras*0.4536))
 
 //ejercicio 13
-let sueldo = parseFloat(prompt("Ingrese sueldo"))
-console.log(sueldo + (sueldo * 0.15))
+// let sueldo = parseFloat(prompt("Ingrese sueldo"))
+// console.log(sueldo + (sueldo * 0.15))
 
-//ejercicio 14
-let notaAlumno = parseInt(prompt("Ingrese la nota del alumno"))
-if (notaAlumno < 7) {
-  alert("Reprobado")
-} else {
-  alert("Aprobado")
-}
+// //ejercicio 14
+// let notaAlumno = parseInt(prompt("Ingrese la nota del alumno"))
+// if (notaAlumno < 7) {
+//   alert("Reprobado")
+// } else {
+//   alert("Aprobado")
+// }
 
 //ejercicio 15
 let categoriaTrabajador = String["gerente", "encargado", "supervisor", "operario", "cadete"]
-let sueldoTrabajador = parseFloat[10000, 8000, 6000, 4000, 2000]
+let sueldoTrabajador = parseFloat[10000, 8000, 6000, 4000, 2000] 
 
+    alert(categoriaTrabajador)
+    
