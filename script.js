@@ -64,12 +64,35 @@
 //   alert("Aprobado")
 // }
 
-//ejercicio 15
-let categoria = string(prompt("ingrese categoria"))
-let sueldo = Number("ingrese sueldo")
-let categoriaTrabajador =["gerente", "encargado", "supervisor", "operario", "cadete"]
-let sueldoTrabajador = [10000, 8000, 6000, 4000, 2000] 
-if(categoria==categoriaTrabajador[0])
-    alert(categoriaTrabajador)
+// //ejercicio 15
+// let categoria = prompt("ingrese categoria")
+// let sueldo = Number("ingrese sueldo")
+// let categoriaTrabajador =["gerente", "encargado", "supervisor", "operario", "cadete"]
+// let sueldoTrabajador = [10000, 8000, 6000, 4000, 2000] 
+// if(categoria==categoriaTrabajador[0])
+//     alert( categoria+"tiene un nuevo sueldo de "+ sueldoTrabajador[0]*1.5)
+// else if(categoria==categoriaTrabajador[1]){
+//     alert(categoria+"tiene un nuevo sueldo de "+ sueldoTrabajador[1]*1.4)
+// }
 
-    
+// //ejercio 16
+// let matricula=parseInt(prompt ("ingrese la matricula"))
+// let notaMatematica=Number(prompt ("ingrese nota de matematicas"))
+// let notaHistoria=Number(prompt ("ingrese nota de historia"))
+// let notaIngles=Number(prompt ("ingrese nota de ingles"))
+// let notaCiencias=Number(prompt ("ingrese ingrese nota de ciencias"))
+// let notaFisica=Number(prompt ("ingrese nota de fisica"))
+// let promedio=(notaCiencias+notaFisica+notaHistoria+notaIngles+notaMatematica)/5
+// if (promedio>=7) {
+//     document.write("matricula numero: "+matricula+" tiene un promedio de "+promedio)
+// }else{
+// alert("no aprobo")
+// }    
+
+// //ejercicio 17
+let numero1=Number(prompt("ingrese numero 1"))
+let numero2=Number(prompt("ingrese numero 2"))
+let numero3=Number(prompt("ingrese numero 3"))
+document.write("el numero mas grande es el "+Math.max(numero1, numero2,numero3))
+
+
