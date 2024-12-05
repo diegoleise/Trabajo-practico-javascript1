@@ -25,6 +25,7 @@ console.log("Usted tiene "  + (2024 - anoNacimiento)+ " " + "años")
 let peso=parseFloat(prompt("Ingrese su peso"))
 let altura=parseFloat(prompt("Ingrese su altura"))
 document.write(peso/(altura*altura))
+document.write("<br>")
 
 //ejercicio 7
 var cantidadVentanas=10
@@ -44,17 +45,18 @@ console.log(valores)
 
 //ejercicio 11
 let base = parseFloat(prompt("Ingrese la medida de la base del triangulo"))
-let altura = parseFloat(prompt("Ingrese la altura del triangulo"))
-document.write(base*altura/2)
+let alturatriang = parseFloat(prompt("Ingrese la altura del triangulo"))
+document.write(base*alturatriang/2)
+document.write("<br>")
 //no se puede calcular el perimetro de un triangulo solo con la base y la altura ya que su formula es P = a + b + c
 
 //ejercicio 12
 let pesoLibras = parseFloat(prompt("ingrese su peso en libras"))
 let pesoKilos = parseFloat(alert("Su peso en kilos es " + pesoLibras*0.4536))
 
-ejercicio 13
-let sueldo = parseFloat(prompt("Ingrese sueldo"))
-console.log(sueldo + (sueldo * 0.15))
+//ejercicio 13
+let sueldo1 = parseFloat(prompt("Ingrese sueldo"))
+console.log(sueldo1 + (sueldo1 * 0.15))
 
 //ejercicio 14
 let notaAlumno = parseInt(prompt("Ingrese la nota del alumno"))
@@ -85,9 +87,11 @@ let notaFisica=Number(prompt ("ingrese nota de fisica"))
 let promedio=(notaCiencias+notaFisica+notaHistoria+notaIngles+notaMatematica)/5
 if (promedio>=7) {
     document.write("matricula numero: "+matricula+" tiene un promedio de "+promedio)
+    document.write("<br>")
 }else{
 alert("no aprobo")
-}    
+}   
+document.write("<br>")
 
 // //ejercicio 17
 let numero1=Number(prompt("ingrese numero 1"))
