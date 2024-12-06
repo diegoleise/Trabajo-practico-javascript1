@@ -20,3 +20,4 @@
 // suma(5, 5)
 // var valorSuma=suma(5, 4)
 // console.log(valorSuma)
+console.log((4>3)||(4>10))
